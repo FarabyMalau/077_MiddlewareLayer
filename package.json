@@ -1,10 +1,11 @@
 {
   "name": "077_middlewarelayer",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "REST API CRUD Biodata Mahasiswa dengan Express, PostgreSQL, middleware, validasi, dan error handling",
+  "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
   },
   "repository": {
     "type": "git",
